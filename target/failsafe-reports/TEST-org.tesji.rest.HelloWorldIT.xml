@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="org.tesji.rest.HelloWorldIT" time="0.631" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\surefire\surefirebooter6181529816521312907.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\mateospc\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\xampp\php;C:\composer;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\maven\bin;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\mateospc\AppData\Local\Microsoft\WindowsApps;C:\Users\mateospc\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\sts-bundle\sts-3.9.7.RELEASE;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\test-classes;C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\classes;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\3.1.18\cxf-rt-frontend-jaxrs-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-core\3.1.18\cxf-core-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\mateospc\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\mateospc\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.2.3\xmlschema-core-2.2.3.jar;C:\Users\mateospc\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\mateospc\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-rt-transports-http\3.1.18\cxf-rt-transports-http-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-rt-rs-client\3.1.18\cxf-rt-rs-client-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.6\jackson-core-asl-1.8.6.jar;C:\Users\mateospc\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.6\jackson-mapper-asl-1.8.6.jar;C:\Users\mateospc\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.6\jackson-jaxrs-1.8.6.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-web\4.1.9.RELEASE\spring-web-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-aop\4.1.9.RELEASE\spring-aop-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-beans\4.1.9.RELEASE\spring-beans-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-context\4.1.9.RELEASE\spring-context-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-expression\4.1.9.RELEASE\spring-expression-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-core\4.1.9.RELEASE\spring-core-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mateospc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mateospc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\mateospc"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="mateospc"/>
+    <property name="java.class.path" value="C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\test-classes;C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\classes;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\3.1.18\cxf-rt-frontend-jaxrs-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-core\3.1.18\cxf-core-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\mateospc\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\mateospc\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.2.3\xmlschema-core-2.2.3.jar;C:\Users\mateospc\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\mateospc\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-rt-transports-http\3.1.18\cxf-rt-transports-http-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\apache\cxf\cxf-rt-rs-client\3.1.18\cxf-rt-rs-client-3.1.18.jar;C:\Users\mateospc\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.6\jackson-core-asl-1.8.6.jar;C:\Users\mateospc\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.6\jackson-mapper-asl-1.8.6.jar;C:\Users\mateospc\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.6\jackson-jaxrs-1.8.6.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-web\4.1.9.RELEASE\spring-web-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-aop\4.1.9.RELEASE\spring-aop-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-beans\4.1.9.RELEASE\spring-beans-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-context\4.1.9.RELEASE\spring-context-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-expression\4.1.9.RELEASE\spring-expression-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\org\springframework\spring-core\4.1.9.RELEASE\spring-core-4.1.9.RELEASE.jar;C:\Users\mateospc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mateospc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mateospc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_201"/>
+    <property name="sun.java.command" value="C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\surefire\surefirebooter6181529816521312907.jar C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\surefire\surefire3859392014731501617tmp C:\Users\mateospc\Desktop\REST_TESJI\HelloWorldREST\target\surefire\surefire8692979501051968890tmp"/>
+    <property name="service.url" value="http://localhost:${test.server.port}/jaxrs-service"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_201\lib\resources.jar;C:\Program Files\Java\jre1.8.0_201\lib\rt.jar;C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_201\lib\jce.jar;C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_201\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\mateospc\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.tesji.rest.HelloWorldIT" name="testJsonRoundtrip" time="0.385">
+    <error message="java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;" type="java.lang.RuntimeException">java.lang.RuntimeException: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:232)
+	at org.apache.cxf.jaxrs.client.WebClient.create(WebClient.java:177)
+	at org.apache.cxf.jaxrs.client.WebClient.create(WebClient.java:136)
+	at org.tesji.rest.HelloWorldIT.testJsonRoundtrip(HelloWorldIT.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+Caused by: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at org.apache.cxf.jaxrs.impl.UriBuilderImpl.uriAsTemplate(UriBuilderImpl.java:918)
+	at org.apache.cxf.jaxrs.client.WebClient.convertStringToURI(WebClient.java:1234)
+	at org.apache.cxf.jaxrs.client.WebClient.&lt;init&gt;(WebClient.java:89)
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:222)
+	... 33 more
+</error>
+  </testcase>
+  <testcase classname="org.tesji.rest.HelloWorldIT" name="testPing" time="0.001">
+    <error message="java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;" type="java.lang.RuntimeException">java.lang.RuntimeException: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:232)
+	at org.apache.cxf.jaxrs.client.WebClient.create(WebClient.java:111)
+	at org.tesji.rest.HelloWorldIT.testPing(HelloWorldIT.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+Caused by: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at org.apache.cxf.jaxrs.impl.UriBuilderImpl.uriAsTemplate(UriBuilderImpl.java:918)
+	at org.apache.cxf.jaxrs.client.WebClient.convertStringToURI(WebClient.java:1234)
+	at org.apache.cxf.jaxrs.client.WebClient.&lt;init&gt;(WebClient.java:89)
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:222)
+	... 32 more
+</error>
+  </testcase>
+</testsuite>
